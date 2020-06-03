@@ -1,0 +1,23 @@
+if you face a problem saying fromat() missing argument:
+https://knowledge.udacity.com/questions/114451
+
+if you face problem with unable to load questions:
+https://knowledge.udacity.com/questions/157335
+https://knowledge.udacity.com/questions/76195
+https://knowledge.udacity.com/questions/116054
+
+if you face Issues with creating a new question:
+https://knowledge.udacity.com/questions/214165
+
+This the code from the lectures it was helpful:
+https://github.com/cmccarthy15/Workshop_Exercise
+
+if you face problem with quiz:
+https://knowledge.udacity.com/questions/89951
+
+notin_(): (we need to use it in the quiz to get new question with no duplication):
+https://stackoverflow.com/questions/26182027/how-to-use-not-in-clause-in-sqlalchemy-orm-query
+https://stackoverflow.com/questions/20060485/sqlalchemy-select-using-reverse-inclusive-not-in-list-of-child-column-values
+
+
+
