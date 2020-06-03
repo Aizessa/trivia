@@ -73,7 +73,7 @@ POST ...
 DELETE ...
 
 ## API
-
+```
 GET '/categories'
 - Fetches a dictionary of categories in which the keys are the ids and the value is the corresponding string of the category
 - Request Arguments: None
@@ -90,7 +90,7 @@ GET '/categories'
   "success": true
 }
 ```
-
+```
 GET '/questions?page=(page number)'
 - Fetches a paginated dictionary of questions of all category
 - Request Arguments (optional): page number
@@ -179,7 +179,7 @@ GET '/questions?page=(page number)'
   "success": true, 
   "total_questions": 19
 }
-
+```
 ```
 DELETE '/questions/<int:question_id>'
 - Delete a questions
@@ -188,7 +188,7 @@ DELETE '/questions/<int:question_id>'
     'success': True,
     'deleted_question':question_id
 }
-
+```
 ```
 POST '/questions'
 - Post a new Question to specific category
@@ -198,7 +198,7 @@ POST '/questions'
     'total_questions':len(selection)
 }
 ```
-
+```
 POST '/questions/searchresult'
 - Post a new search for a specific questions
 - Request Date: SearchTerm:string
@@ -218,7 +218,7 @@ POST '/questions/searchresult'
 }
 
 ```
-
+```
 GET '/categories/<int:category_id>/questions'
 - GET all questions for specific category
 - Request Arguments: int:category_id
@@ -258,7 +258,7 @@ GET '/categories/<int:category_id>/questions'
   "total_questions": 4
 }
 ```
-
+```
 POST '/quizzes'
 - Post a new quiz with random questions with no dublicated questions 
 - Request Date: array:previous_questions, quiz_category: int:id
@@ -273,7 +273,7 @@ POST '/quizzes'
     }, 
   "success": true
 }
-
+```
 
 
 ## Testing
