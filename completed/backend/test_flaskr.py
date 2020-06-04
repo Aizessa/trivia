@@ -91,10 +91,8 @@ class TriviaTestCase(unittest.TestCase):
         self.assertIsNotNone((data['questions']))
 
     def test_get_book_search_error(self):
-        new_search = {
-            'searchTerm': '',
-        }
-        res = self.client().post('/questions/searchresults', json={'searchTerm': ''})
+
+        res = self.client().post('/questions/searchresults', json={'searchTerm': 'c',})
         data = json.loads(res.data)
 
         self.assertEqual(res.status_code, 404)
